@@ -48,7 +48,7 @@ export async function createTelegramBot() {
   bot.start((ctx) => {
     logger.info("Received /start command from: " + ctx.chat.id);
     ctx.reply(motd, {
-      disable_web_page_preview: true,
+    //disable_web_page_preview: true,
     });
   });
 

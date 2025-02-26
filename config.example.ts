@@ -24,7 +24,7 @@ export const WEBSOCKET_SERVER_PATH = "/kfccrazythursdayvme50";
 
 // 启用 Telegram 机器人
 // 如果不需要 Telegram 机器人功能，请将此值设置为 false
-export const ENABLE_TELEGRAM_BOT = true;
+export const ENABLE_TELEGRAM_BOT = false;
 
 // Telegram 机器人 Token
 export const TELEGRAM_BOT_TOKEN = "4567890123:ABCDEFGHIJKLMNOPQRSTUVWXYZ";
